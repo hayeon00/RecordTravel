@@ -19,7 +19,7 @@ body {
 
 .title-header-content{
     height: 100%;
-    width: 740px;
+    width: 840px;
     margin: 0 auto;
     font-family: 'Titillium Web'
 }
@@ -107,14 +107,13 @@ h1{
 
 
 .contents{
-    width: 740px;
+    width: 840px;
     margin: 0 auto;
 }
 
 .menu-section{
-    background-color: cornflowerblue;
-    height: 70px;
-
+    /* background-color: cornflowerblue; */
+    height: 50px;
 }
 
 .description{
@@ -133,6 +132,34 @@ h1{
     font-size: 18px;
     color: #000000;
 }
+
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    margin: 0 72px;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+nav {
+    border-top: 2px solid #000000; 
+    padding-top: 10px; 
+  }
 
 
 

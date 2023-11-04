@@ -1,11 +1,16 @@
 import React from 'react';
 
-function Add() {
+function AddPage() {
   return (
     <div>
-      <h2>add 페이지</h2>
+      <div className='title-header'>
+        <div className='title-header-content'>
+            <h1>Record Travel</h1>
+        </div>
+      </div>
+      <h4>Add페이지</h4>
     </div>
   );
 }
 
-export default Add;
+export default AddPage;

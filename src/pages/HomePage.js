@@ -58,13 +58,10 @@ const Home = () =>{
                                 <Link to="/AddPage">문의</Link>
                             </li>
                         </ul>
-
                     </nav>
-        
                 </div>
                 <div className='rt-content'>
-
-
+                    
                 </div>
              
 
